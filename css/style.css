@@ -25,36 +25,15 @@ time, mark, audio, video {
 
 body{
 
-	font-family: Georgia;
-	font-size: 16px;
-	line-height: 28px;
+	font: normal 16px/24px 'Vollkorn', serif;
 	width: 100%;
 	background-color: #e1e1e1;
 
 }
 
-.nav-menu{
-  position:relative;
-}
-
-.blog-title{
- font: normal 30px/23px 'Bangers', cursive;
- margin: 5px;
- padding: 10px;
-}
-
-.blog-title a:hover{
-text-decoration: none;
-}
-
-.nav a:hover{
-text-decoration: none;
-      color: white;
-}
-
 body a{
       text-decoration: none;
-    color: #003399;
+    color: #333399;
 }
 
 
@@ -67,21 +46,17 @@ body a:visited{
 
 body a:hover {
       text-decoration: none;
-      color: black;
-  
+      color:black;
+
 }
 
 
 h1{
-	font: 45px/ 35px bold "Georgia", serif;
+	font: bold 45px/ 35px "Georgia", serif;
 	margin-bottom: 20px;
 	padding: 10px;
 	color: black;
 
-}
-
-h2{
-  font: normal 27px/ 30px 'Alfa Slab One', cursive;
 }
 
 p{
@@ -93,110 +68,141 @@ p{
 
 .heading h1{
 	text-align: center;
-	font-family: 'Satisfy', serif;
+	font:  normal 46px/49px 'Satisfy', serif;
+	
 }
 
 .wrap{
-  position: relative;
-	max-width: 1000px;
-  width: 100%;
-    height: auto;
+	max-width: 600px;
 		margin: auto;
 			background-color: white;
 			border-bottom: 4px solid black;
 
 }
 
-.content{
-  position:relative;
-  width: 65%;
-  float:left;
-    background-color: white;
-      padding: 5px;
+.page {
+		padding: 15px;
 }
 
-.sidebar{
-  position:relative;
-  margin: 0 20px 0 30px;
-  padding: 15px;
-  width: 25%;
-  float:left;
-    background-color: white;
+.profile{
+	position: relative;
 
 }
-
-.sidebar li{
-  list-style: none;
-
+/**
+.photograph{
+	width: 400px; 
+	height:300px; 
+	background-image: url(https://cloud.githubusercontent.com/assets/12274440/7627374/674042d8-fa34-11e4-80c1-c37657f0bbf6.png) ;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: auto;
 }
+**/
 
-.sidebar h2{
-margin: 18px 0;
-font-size: 20px;
-
-}
-
-.links li{
-  padding-bottom: 25px ;
+.photograph{
+   width: 30%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
-.page{
-  position:relative;
-  width: 100%;
+.img-responsive{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+     width: 100%; 
+    height:auto; 
+    
+}
+
+
+.photograph:hover{f
+	opacity: 0.8 ;
 
 }
 
 
-.blog-title{
-  text-align:left;
-      float:left;
+.pf-list{
+  font:  normal 22px/29px 'Vollkorn', serif;
+    margin: 5px 20px 30px 20px;
 }
 
+.pf-list ul{
+   list-style-type: none;
+  margin: 10px;
+
+}
+
+
+.pf-list li{
+    margin: 5px 20px 30px 20px;
+}
+
+.pf-list a .pf-list, a:visited{
+    color:black;
+}
 
 .nav-menu{
-	background-color: black;
-	color: white;
-	font: normal 17px/20px  'Arvo', serif;
-		text-align: right;
+  background-color: black;
+  color: white;
+  font: normal 17px/20px 'Satisfy', serif; 
+  text-align: right;
     float:left;
     position:relative;
     width: 100%;
 }
 
 .nav-menu li{
-	display: inline;
-	margin: 10px;
+  display: inline;
+  margin: 10px;
 
 }
 
+
 .nav-menu ul{
-		padding: 15px 20px;
+  padding: 15px 20px;
 }
 
 .nav-menu a{
-	color: white;
-	text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .nav-menu a:visited{
-  color: white;
+    color: white;
 
 
 }
 
+.nav-menu a:hover{
+    color: white;
+
+
+}
+
+
 .blog-title{
   text-align:left;
-      float:left;
+  float:left;
+}
+
+.blog-title{
+ font: normal 30px/23px 'Bangers', cursive;
+ margin: 5px;
+ padding: 10px;
 }
 
 .blog-title a{
   color: white;
   text-decoration: none;
-      padding: 10px 20px;
-      margin: 10px;
+      padding: 10px 5px;
+      margin: 10px 5px;
 }
 
+.blog-title a:hover{
+  text-decoration:none;
+}
 
 .social{
 
@@ -275,12 +281,6 @@ background-image: url(http://1.bp.blogspot.com/-UaMXnN5fKLg/VUscmmNqX3I/AAAAAAAA
    Tiles content
    ========================================================================== */
 
-
-.articles{
-  float:left;
-  position:relative;
-  width: 100%;
-}
    .article{
    	position: relative;
   float:left;
@@ -289,111 +289,101 @@ background-image: url(http://1.bp.blogspot.com/-UaMXnN5fKLg/VUscmmNqX3I/AAAAAAAA
    }
 
 .article:hover{
-	background-color: #f7f7f7;
+	background-color: #fff;
 }
 
-   .article img{
-   	float:left;
-    margin: 5px 10px ;
 
+        .article img{
+       width: 100px;
+        border: 4px solid black;
    }
+
 
      .article img:hover{
    	  opacity: 0.9;
-
    	
    }
 
 
    .article-text{
-   	margin: 1px 5px ;
+   	margin: 1px 15px ;
    	float:left;
-    width: 70%;
+   	width: 70%;
    	position: relative;
 
    }
 
    .article a{
-   	font-weight: normal;
-        font-family: 'Alfa Slab One', cursive;
+   	font-weight: bold;
+    font-size: 22px;
    }
 
-  .article h2{
-
-    margin: 5px 5px ;
-  }
 
    .snippet{
-   	  	font: 14px/ 17px normal 'Georgia', serif;
-        margin: 5px 5px ;
+   	  	font: normal 14px/ 17px  'Georgia', serif;
+   }
+
+      .photo{
+    float:left;
+    height:auto;
    }
 
 
- .article{
+   .article-high{
+    background-color: #fff;
     position: relative;
   float:left;
-  margin: 10px 20px;
-  padding: 5px;
+  margin: 10px 10px;
+  padding: 10px 20px;
    }
 
-.article:hover{
-  background-color: #f7f7f7;
+.article-high:hover{
+  background-color: #fff;
 }
 
-  .featured{
-    position: relative;
-    background-color: #f7f7f7;
-    width: 100%;
-    height: auto;
-    padding: 15px;
-  }
-
-   .featured img{
-    position: relative;
+   .photo-high{
     float:left;
-    margin: 5px 15px ;
+    width: 65%;
+    height:auto;
+    padding: 0 2%;
+
 
    }
 
-     .featured img:hover{
-      opacity: 0.9;
+        .article-high img{
 
+        border: 7px solid black;
+   }
+
+     .article-high img:hover{
+      opacity: 0.9;
     
    }
 
 
+   .article-text-high{
+    margin: 1px 15px ;
+    float:left;
+    width: 25%;
+    position: relative;
 
-   .featured a{
-    font-weight: bold;
    }
 
-  .featured h2{
-    font-family: 'Alfa Slab One', cursive;
-    margin: 5px 15px ;
-  }
+   .article-high a{
+    font-weight: bold;
+        font-size: 22px;
+   }
+
+
+
+   .snippet-high{
+        font: normal 14px/ 17px  'Georgia', serif;
+   }
 
 
 
    footer{
    	clear:both;
-        text-align: center;
-          background-color: black;
-  color: white;
-  font: normal 17px/20px  'Arvo', serif;
-  padding: 20px;
-
-   }
-
-      footer a{
- color: white;
- text-decoration: underline;
-
-   }
-
-         footer a:hover{
- color: white;
- text-decoration: underline;
-
    }
 
    .contact-info{
@@ -401,6 +391,8 @@ background-image: url(http://1.bp.blogspot.com/-UaMXnN5fKLg/VUscmmNqX3I/AAAAAAAA
     margin: 30px 0;
     font-size: 17px;
    }
+
+
 
    /**
 
@@ -442,4 +434,87 @@ background-image: url(http://1.bp.blogspot.com/-UaMXnN5fKLg/VUscmmNqX3I/AAAAAAAA
 .nav-one:hover:before, .nav-one:focus:before, .nav-one:active:before {
   left: 0;
   right: 0;
+}
+
+/* Mobile
+----------------------------------------------- */
+
+@media screen and (max-width : 1280px) {
+/* CSS FOR NETBOOK AND DESKTOP ------------*/
+}
+
+@media screen and (max-width : 970px) {
+/* CSS FOR TABLETS ------------*/
+}
+
+
+
+@media screen and (max-width : 768px) {
+
+/* CSS FOR SMALL TABLETS ------------*/
+
+  .article{
+   }
+
+   .photo{
+    width: 95%;
+   }
+
+      .photo-high{
+    width: 95%;
+   }
+
+   .article img{
+    width: 100%;
+   }
+
+   .article-text{
+    width: 100%;
+   }
+
+      .article-text-high{
+    width: 100%;
+   }
+
+      .article-high img{
+    width: 100%;
+   }
+
+
+}
+
+
+
+@media screen and (max-width : 640px) {
+	.sidebar{
+
+}
+
+.content{
+
+}
+}
+/* CSS FOR IPHONE ------------*/
+
+
+@media screen and (max-width : 480px) {
+/* CSS FOR MOBILES ------------*/
+.content{
+
+
+}
+
+}
+
+
+@media screen and (max-width : 320px) {
+/* CSS FOR SMALL OLD MOBILES ------------*/
+.wrap{
+
+}
+
+.nav ul{
+
+}
+
 }
