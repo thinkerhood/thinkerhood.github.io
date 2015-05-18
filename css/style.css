@@ -284,8 +284,8 @@ background-image: url(http://1.bp.blogspot.com/-UaMXnN5fKLg/VUscmmNqX3I/AAAAAAAA
    .article{
    	position: relative;
   float:left;
-  margin: 10px 10px;
-  padding: 5px;
+  margin: 0.5%;
+  padding: 2% 4%;
    }
 
 .article:hover{
@@ -306,7 +306,7 @@ background-image: url(http://1.bp.blogspot.com/-UaMXnN5fKLg/VUscmmNqX3I/AAAAAAAA
 
 
    .article-text{
-   	margin: 1px 15px ;
+   	margin: 0 1.7%;
    	float:left;
    	width: 70%;
    	position: relative;
@@ -333,8 +333,8 @@ background-image: url(http://1.bp.blogspot.com/-UaMXnN5fKLg/VUscmmNqX3I/AAAAAAAA
     background-color: #fff;
     position: relative;
   float:left;
-  margin: 10px 10px;
-  padding: 10px 20px;
+  margin: 0.5%;
+  padding: 2% 4%;
    }
 
 .article-high:hover{
